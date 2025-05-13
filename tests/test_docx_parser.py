@@ -1,7 +1,7 @@
 import os
 import pytest
 from pathlib import Path
-from docx_parser import DocxParser
+from word_file_parser import DocxParser
 
 @pytest.fixture
 def sample_docx_path():

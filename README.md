@@ -26,16 +26,16 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies:
+3. Install the package in development mode:
 
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Usage
 
 ```python
-from docx_parser import DocxParser
+from word_file_parser import DocxParser
 
 # Initialize parser with a Word document
 parser = DocxParser("path/to/document.docx")
