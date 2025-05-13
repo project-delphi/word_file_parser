@@ -2,13 +2,13 @@
 Example usage of the docx_parser module.
 """
 
-from docx_parser import DocxParser
+from word_file_parser import DocxParser
 
 def main():
     # Example usage
     try:
         # Initialize the parser with a Word document
-        parser = DocxParser("example.docx")
+        parser = DocxParser("path/to/your/document.docx")
         
         # Parse the document into sections
         sections = parser.parse_sections()
